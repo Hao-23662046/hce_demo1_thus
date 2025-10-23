@@ -12,7 +12,7 @@ const Layout = () => {
           <div id="banner" className="banner">
             <div id="divmenutrai">
               <nav id="menutrai">
-                <ul className="menutrai" style={{ width: "250px" }}>
+                <ul className="menutrai" style={{ width: "300px" }}>
                   <li>
                     <a href="/" class="menutrai">
                       TRANG CHU
@@ -25,8 +25,13 @@ const Layout = () => {
                     </a>
                   </li>
                   <li>
-                    <a class="menutrai" href="/trang2">
+                    <a class="menutrai" href="/Trang2">
                       SINH VIEN
+                    </a>
+                  </li>
+                  <li>
+                    <a class="menutrai" href="/ListSanPham">
+                      Sản Phẩm
                     </a>
                   </li>
                 </ul>
