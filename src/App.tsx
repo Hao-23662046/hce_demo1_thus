@@ -11,6 +11,10 @@ import Chitietsanpham from "./Chitietsanpham";
 import Trang2 from "./Trang2";
 // @ts-ignore
 import ListProducts from "./ListProducts";
+
+// @ts-ignore
+import ListProducts_SP from "./ListProducts_SP";
+
 // @ts-ignore
 import ListSanPham from "./ListSanPham";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -21,7 +25,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<ListProducts />} />
+          <Route index element={<ListProducts_SP />} />
           <Route path="trang1" element={<Trang1 />} />
           <Route path="sanpham/:id" element={<Chitietsanpham />} />
           <Route path="Trang2" element={<Trang2 />} />
